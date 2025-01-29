@@ -119,7 +119,7 @@ nav {
   max-width: 550px;
 }
 
-.image-cart {
+.image-content {
   width: 100%;
   max-width: 550px;
   position: relative;
@@ -130,21 +130,21 @@ nav {
   max-width: 250px;
   position: absolute;
   left: -65px;
-  top: -600px;
+  top: -24px;
 }
 #cart-2 {
   width: 100%;
   max-width: 250px;
   position: absolute;
-  right: -155px;
-  top: -91px;
+  right: -150px;
+  bottom: -40px;
 }
 #cart-3 {
   width: 100%;
   max-width: 150px;
   position: absolute;
   right: 80px;
-  top: 326px;
+  top: 306px;
 }
 #about {
   padding-block: 50px;
