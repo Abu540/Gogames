@@ -10,6 +10,9 @@
 body {
   background-color: #ffe6d7;
 }
+html {
+  scroll-behavior: smooth;
+}
 .container {
   width: 100%;
   max-width: 1280px;
@@ -20,6 +23,7 @@ span {
   color: rgba(255, 0, 0, 0.358);
 }
 button {
+  cursor: pointer;
   background: rgb(68, 153, 217);
   background: linear-gradient(
     90deg,
@@ -51,9 +55,12 @@ a:hover {
   color: blue;
 }
 #header {
-  padding-block: 25px;
-  padding-bottom: 50px;
+  top: 0;
+  position: sticky;
+  backdrop-filter: blur(4px);
+  z-index: 99;
 }
+
 .header {
   width: 100%;
   max-width: 1200px;
@@ -61,12 +68,17 @@ a:hover {
   justify-content: space-between;
   align-items: center;
 }
+.header-img img {
+  width: 100%;
+  max-width: 150px;
+}
 nav {
   margin-left: 380px;
   display: flex;
   gap: 40px;
 }
 #home {
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 .home {
@@ -76,7 +88,7 @@ nav {
 }
 .home-content {
   width: 100%;
-  max-width: 550px;
+  max-width: 480px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -98,21 +110,27 @@ nav {
   line-height: 24px;
   max-width: 480px;
 }
+.image-content {
+  width: 100%;
+  max-width: 900px;
+}
 .image-content img {
   width: 100%;
-  max-width: 650px;
+  max-width: 550px;
 }
+
 .image-cart {
   width: 100%;
-  max-width: 600px;
+  max-width: 550px;
   position: relative;
+
 }
 #cart-1 {
   width: 100%;
   max-width: 250px;
   position: absolute;
   left: -65px;
-  top: -610px;
+  top: -600px;
 }
 #cart-2 {
   width: 100%;
@@ -235,6 +253,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
 }
 .icos {
   display: flex;
