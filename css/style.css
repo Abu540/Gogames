@@ -97,7 +97,7 @@ nav {
 }
 .image-content img {
   width: 100%;
-  max-width: 500px;
+  max-width: 650px;
 }
 .image-cart {
   width: 100%;
@@ -108,8 +108,8 @@ nav {
   width: 100%;
   max-width: 250px;
   position: absolute;
-  left: -83px;
-  top: -550px;
+  left: -65px;
+  top: -610px;
 }
 #cart-2 {
   width: 100%;
