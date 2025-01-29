@@ -73,7 +73,6 @@ nav {
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 80px;
 }
 .home-content {
   width: 100%;
@@ -90,6 +89,10 @@ nav {
   display: flex;
   align-items: center;
   gap: 18px;
+}
+.home-content h1 {
+  line-height: 70px;
+  max-width: 450px;
 }
 .home-content p {
   line-height: 24px;
@@ -186,7 +189,7 @@ nav {
   align-items: flex-start;
   gap: 20px;
 }
-.box button{
+.box button {
   width: 100%;
 }
 .box:focus {
@@ -200,8 +203,8 @@ nav {
   p {
     color: #ffffff;
   }
-  span{
-    color: #EB8382;
+  span {
+    color: #eb8382;
   }
   background: #2e4495;
 }
@@ -217,7 +220,6 @@ nav {
 }
 .box span {
   font-size: 16px;
-  
 }
 
 .line {
